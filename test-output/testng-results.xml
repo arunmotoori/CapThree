@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="4" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-28T10:13:05 IST" name="Suite" finished-at="2022-02-28T10:13:38 IST" duration-ms="33188">
+    <groups>
+    </groups>
+    <test started-at="2022-02-28T10:13:05 IST" name="Test" finished-at="2022-02-28T10:13:38 IST" duration-ms="33188">
+      <class name="tests.Login">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Login@4f32a3ad]" started-at="2022-02-28T10:13:05 IST" name="setup" finished-at="2022-02-28T10:13:10 IST" duration-ms="5356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithValidCredentials()[pri:1, instance:tests.Login@4f32a3ad]" started-at="2022-02-28T10:13:10 IST" name="loginWithValidCredentials" finished-at="2022-02-28T10:13:12 IST" duration-ms="1207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Login@4f32a3ad]" started-at="2022-02-28T10:13:12 IST" name="tearDown" finished-at="2022-02-28T10:13:12 IST" duration-ms="452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Login@4f32a3ad]" started-at="2022-02-28T10:13:12 IST" name="setup" finished-at="2022-02-28T10:13:15 IST" duration-ms="2939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithValidUsernameAndInvalidPassword()[pri:2, instance:tests.Login@4f32a3ad]" started-at="2022-02-28T10:13:15 IST" name="loginWithValidUsernameAndInvalidPassword" finished-at="2022-02-28T10:13:16 IST" duration-ms="1103" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at tests.Login.loginWithValidUsernameAndInvalidPassword(Login.java:68)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidUsernameAndInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Login@4f32a3ad]" started-at="2022-02-28T10:13:16 IST" name="tearDown" finished-at="2022-02-28T10:13:17 IST" duration-ms="440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Login@4f32a3ad]" started-at="2022-02-28T10:13:17 IST" name="setup" finished-at="2022-02-28T10:13:20 IST" duration-ms="2937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithInvalidUsernameAndValidPassword()[pri:3, instance:tests.Login@4f32a3ad]" started-at="2022-02-28T10:13:20 IST" name="loginWithInvalidUsernameAndValidPassword" finished-at="2022-02-28T10:13:21 IST" duration-ms="1225" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at tests.Login.loginWithInvalidUsernameAndValidPassword(Login.java:84)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidUsernameAndValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Login@4f32a3ad]" started-at="2022-02-28T10:13:21 IST" name="tearDown" finished-at="2022-02-28T10:13:22 IST" duration-ms="432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.Login -->
+      <class name="tests.Register">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Register@5e7cd6cc]" started-at="2022-02-28T10:13:22 IST" name="setup" finished-at="2022-02-28T10:13:25 IST" duration-ms="3080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerAccountWithMandatoryFields()[pri:1, instance:tests.Register@5e7cd6cc]" started-at="2022-02-28T10:13:25 IST" name="registerAccountWithMandatoryFields" finished-at="2022-02-28T10:13:27 IST" duration-ms="2010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerAccountWithMandatoryFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Register@5e7cd6cc]" started-at="2022-02-28T10:13:27 IST" name="tearDown" finished-at="2022-02-28T10:13:27 IST" duration-ms="449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Register@5e7cd6cc]" started-at="2022-02-28T10:13:27 IST" name="setup" finished-at="2022-02-28T10:13:30 IST" duration-ms="3059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerAccountWithAllFields()[pri:2, instance:tests.Register@5e7cd6cc]" started-at="2022-02-28T10:13:30 IST" name="registerAccountWithAllFields" finished-at="2022-02-28T10:13:32 IST" duration-ms="2012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerAccountWithAllFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Register@5e7cd6cc]" started-at="2022-02-28T10:13:32 IST" name="tearDown" finished-at="2022-02-28T10:13:33 IST" duration-ms="481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Register@5e7cd6cc]" started-at="2022-02-28T10:13:33 IST" name="setup" finished-at="2022-02-28T10:13:36 IST" duration-ms="2935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerDuplicateAccount()[pri:3, instance:tests.Register@5e7cd6cc]" started-at="2022-02-28T10:13:36 IST" name="registerDuplicateAccount" finished-at="2022-02-28T10:13:38 IST" duration-ms="2036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerDuplicateAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Register@5e7cd6cc]" started-at="2022-02-28T10:13:38 IST" name="tearDown" finished-at="2022-02-28T10:13:38 IST" duration-ms="466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.Register -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
