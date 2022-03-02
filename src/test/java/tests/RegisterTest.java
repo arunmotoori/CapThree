@@ -15,7 +15,7 @@ import pageobjects.RegisterPage;
 import resources.Base;
 
 public class RegisterTest extends Base {
-	
+	//Hariprasad
 	public WebDriver driver = null;
 	
 	@BeforeMethod
