@@ -17,7 +17,7 @@ import resources.Base;
 public class LoginTest extends Base {
 	
 	//Arun Motoori
-	
+	//Updated this file
 	public WebDriver driver = null;
 	
 	@BeforeMethod
